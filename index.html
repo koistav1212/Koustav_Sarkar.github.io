@@ -1,283 +1,203 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-      <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.firstbackimg {
-  /* The image used */
-  background-image: url("IMG20200212202803_800x600.png");
-  
-  /* Add the blur effect */
-  filter: blur(.1px);
-  -webkit-filter: blur(.55px);
-  color: black;
-  /* Full height */
-  height: 100%; 
-   position: relative;
-   opacity: .5;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
- .firstimg{  margin-top: 7%;
-            margin-left: 12%;
-            top:5%; 
-            z-index: 10;
-            position: absolute;
-            width: 25%;
-           height: 25%
-            flex: 0 0 30%;
-}
- .firstimg img{
-  max-width: 100%;
- }
-
-.first .content{
-padding-left:  20px;
-}
-.first .content h2{
-	color: violet;
-top:.1%;
-}.first .content h1{
-	color: pink;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-position: relative;
-top:.1%;margin-bottom: -50px;
-
-}.first .content h3{
-	color: pink;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	left:20%;
-	position:relative;
-	top: .1%;margin-bottom: -30px;
-}
-.first .content h4{left:7%;
-top: .1%;
-	position: relative;
-	color: violet;
-}
-
-	.first:hover{
-		box-shadow: 0 15px 30px rgba(0.3,0.3,0,.8);
-	}
-.secondbackimg {
-  /* The image used */
-background-color:  indigo;
-  
-  /* Add the blur effect */
-  filter: blur(3px);
-  -webkit-filter: blur(8px);
-  
-  /* Full height */
-  height: 100%; 
-  position: relative;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.logo{
-	z-index: 2;
-	position: absolute;
-	left: 0%;
-	top: -4%;
-	height: 1%
-	width: 1%;
-  flex: 0 0 20px;
-
-}
-
-
-
-/* Position text in the middle of the page/image */
-.first{
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
- 
-  box-sizing: border-box;
-  position: absolute;
-  border: 3px solid #f1f1f1;
-  top: -23%;
-  left: 35%;
-  transition: translate(-30%,-30%);
-  width: 55%;
-  height: 75%;
-  
-  z-index: 3;
-  display: flex;
-  text-align: center;
-  transition: .5s;
-    padding: 40px 40px 40px 40px;
-            margin: 18rem 10% -1rem -20px;
-}
-.second .secondimg{
- box-sizing: border-box;
-width: 20%;
-height: 25%;
-flex : 0 0 25%;
-transition: .5s;
-position: relative;
-left: 20%;
- transform: translate(-50%, -50%);
-top: 50%;
-}
-.second .secondimg img{
-max-width: 100%;
- 
-  /* #1 */
-  border: 5px solid hsl(0, 0%, 40%);
-  
-  /* #2 */
-  padding: 5px;
-  background: hsl(0, 0%, 20%);
-  
-  /* #3 */
-  outline: 5px solid hsl(0, 0%, 60%);
-  
-  /* #4 AND INFINITY!!! (CSS3 only) */
-  box-shadow:
-      0 0 0 10px hsl(0, 0%, 80%),
-      0 0 0 15px hsl(0, 0%, 90%);
-
-}
-
-.second{
-  display: flex;
-position: relative;
-top:-50%;
-
-
-}
-.second .second1 .second-overlay
-{
-    background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.6);
-  z-index: 3;
-  box-sizing: border-box;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-}
-
-/* Position text in the middle of the page/image */
-.second .second1{ /* Black w/opacity/see-through */
-  color: violet;
-  background-image: url("ssms.jpg");
-  font-weight: bold;
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 3px solid #f1f1f1;
- position: relative;
- 
- 
-  left: 18%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 30%;
-  padding: 20px;
-  text-align: center;
- 
-
-
- transition: .5s;
-}
-.second .second2{
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
-  color: violet;
-  background-image: url("MAKAUT.jpeg");
-  font-weight: bold;
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 3px solid #f1f1f1;
- position: relative;
- 
-  left: 27%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 30%;
-  padding: 20px;
-  text-align: center;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Koustav Sarkar</title>
     
-
- transition: .5s;
-}
-.para{
-	color: white;
-  font-weight: bold;
-  text-align: center;
-}
-</style>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style3.css">
 </head>
 <body>
-<img class = "logo" src="Git_logo4.png"></img>
-<div class="firstbackimg"></div>
- <div class="firstimg">
-        <img src="IMG20200203230242_450x600.png" alt="Image"></img>
-    </div>
-<div class="first"> 
-	
-<div class="content">
+	<header>
+		<div class="menu-toggler">
+			<div class="bar half start"></div>
+			<div class="bar "></div>
+			<div class="bar half end"></div>
+		</div>
+		<nav class="top-nav">
+			<ul class="nav-list">
+				<li ><a href="C:\Games\Github_pages\Design_Course1\Design_Course3.html" class="nav-link">Home</a></li>
+				<li ><a href="#about" class="nav-link">about</a></li>
+				<li ><a href="#services" class="nav-link">Services</a></li>
+				<li ><a href="#portfolio" class="nav-link">portfolio</a></li>
+				<li ><a href="#experience" class="nav-link">Experience</a></li>
+				<li ><a href="#contact" class="nav-link">Contact </a></li>
+			</ul>
+			
+		</nav>
+		<div class="landing-text">
+			<h1>Koustav Sarkar</h1>
+			<h6>WEB DESIGNER | COMPETITIVE CODER</h6>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="container">
+			<div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+				<img src="IMG20200203230242_450x600.png">
+			</div>
+			<div class="about-details" data-aos="fade-left" data-aos-delay="300">
+				<div class="about-heading">
+					<h1>About</h1>
+					<h6>Myself</h6> 
+				</div>
+				<p>hey introducing myself. I began my journey since class ten when I was first come across programming and its capabilities. I found it extremely influencing and chose to continue my career in this topic. Thus after learning java and c , I started web designing and web development. Creating astonishing stuffs is always at the top of my priority list .I have started learning android app development . </p>
+				<div class="social-media">
+				<ul class="nav-list">
+					<li><a href="#" class="icon-link">
+						<i class="fab fa-facebook-square"></i>
+					</a></li>
+					<li><a href="#" class="icon-link">
+						<i class="fab fa-twitter-square"></i>
+					</a></li>
+					<li><a href="#" class="icon-link">
+						<i class="fab fa-whatsapp-square"></i>
+					</a></li>
+				</ul>
+			</div>
+			</div>
+			
+		</div>
+	</section>
+	<section class="services" id ="services">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Services</h1>
+				<h6>What I can do for you</h6>
+			</div>
+			<div class="my-skills">
+				<div class="skill" data-aos="fade-in" data-aos-delay="300">
+				<div class="icon-container">
+					<i class="fas fa-layer-group"></i>
+				</div>
+				<h1>Web design</h1>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, doloreLorem ipsum dolor sit,</p>	
+				</div>
+				<div class="skill" data-aos="fade-in" data-aos-delay="600">
+				<div class="icon-container">
+					<i class="fas fa-code"></i>
+				</div>
+				<h1>Web development</h1>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, doloreLorem ipsum dolor sit,</p>	
+				</div>
+				<div class="skill" data-aos="fade-in" data-aos-delay="900">
+				<div class="icon-container">
+					<i class="fas fa-chart-bar"></i>
+				</div>
+				<h1>product strategy</h1>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, doloreLorem ipsum dolor sit,</p>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="portfolio" id ="portfolio">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Academic Life</h1>
+				<h6>Here is a short story</h6>
+			</div>
+			<div class="portfolio-item">
+				<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+					<img src="ssms.jpg">
+				</div>
+            <div class="portfolio-describtion" data-aos="fade-left" data-aos-delay="600">
+            	<h6>School Lifet</h6>
+            	<h1>Blog Website</h1>
+            	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, doloreLorem ipsum dolor sit,</p>
+            	<a href="#" class="cta"> View Details</a>
+             </div>
+			</div>
+				<div class="portfolio-item">
+					   <div class="portfolio-describtion has-margin-right" data-aos="fade-right" data-aos-delay="900">
+            	<h6>College Life</h6>
+            	<h1>product layout</h1>
+            	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, doloreLorem ipsum dolor sit,</p>
+            	<a href="#" class="cta"> View Details</a>
+             </div>
+				<div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+					<img src="MAKAUT.jpeg">
+				</div>
+         
+			</div>
+				<div class="portfolio-item">
+				<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+					<img src="C:\Games\Web_video\portfolio\portfolio\images\portitem3.jpeg">
+				</div>
+            <div class="portfolio-describtion" data-aos="fade-rleft" data-aos-delay="1800">
+            	<h6>Web design</h6>
+            	<h1>product sketch</h1>
+            	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, doloreLorem ipsum dolor sit,</p>
+            	<a href="#" class="cta"> View Details</a>
+             </div>
+			</div>
+		</div>
+	</section>
+		<section class="experience" id ="experience">
+		<div class="container">
+			<div class="section-heading">
+				<h1>My Projects</h1>
+				<h6>View it as I know you will like it</h6>
+			</div>
+			<div class="timeline" data-aos="fade-down" data-aos-delay="300">
+				<ul>
+					<li class="date" data-date="Front-end">
+						<h1>Website designs</h1>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+					</li>
+					<li class="date" data-date="#loaders">
+						<h1>Loading Samples</h1>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+					</li>
+					<li class="date" data-date="2002-2008">
+						<h1>Microsoft</h1>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 
-  <h2 style="font-size: 30px">Hey !! I'm </h2>
-  <h1 style="font-size:50px"> KOUSTAV </h1>
-   <h3 style="font-size:50px">  SARKAR</h3>
-    <h4 style="font-size:20px">  WEB DESIGNING |COMPETITIVE CODING</h4>
-  <p class="para">
-  #CODE HUNTER Started my journey of codes since class ten in java.Ever since Icame across coding I developed a passion for codes. I began with Web development and soon shifted to Android app development. I love to create useful stuffs, that people are actually going to use in their daily lives, hence Android and IoT became my priority. Competitive coding is my hobby.I will try my best to contribue to the development of mankind.
-</p>
-</div>
-</div>
+						</p> 
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section><section class="contact" id ="contact">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Contact</h1>
+				<h6>Let's work together</h6>
+			</div>
+			<form action="" data-aos="fade-up" data-aos-delay="300">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter Your Name..." required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter Your Name..." required>
+			<label for="service">Services:</label>
+			<select name="services" id="service">
+				<option value="">Web Design</option>
+				<option value="">Web Development</option>
+				<option value="">Web Design/Web develop</option>
+			</select>
+			<label for="subject">Subject:</label>
+			<textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+			<input type="submit" value="Submit">
+    </form>
+		</div>
+	</section>
+<footer class="copyright">
+	<div class="up" id="up">
+		<i class="fas fa-chevron-up"></i>
 
-<div class="secondbackimg"></div>
-<div class="second">
-  
-<div class="second1">
-	
-<div class="second-overlay"></div>
-
-<div class="content">
-
- 
-  <h1 style="font-size:50px">School life</h1>
-   <p class="para">I am proudly a Stonian ,went to Steeping Stone Model School .There I have Passed the best tweleve years of my life. I got 92% in class ten and acquired the tenth position in my class .In class 12 I scored 96.25% in ISC borad examination with computer science (100) ,and acquried the first position in the class.</p>
-</div>
-</div>
-
-<div class="secondimg">
-<img  src="IMG-20200224-WA0017_800x369.png"></img>
-</div>
-<div class="second2">
-  
-<div class="second-overlay"></div>
-
-<div class="content">
-
- 
-  <h3 style="font-size:50px">College life</h3>
-  <p class="para">
-  MAKAUTIAN.Here I came across a bunch of intellectual students and sciners .They keep on fascinating me and encourages for creating new milestones in my life.I am developing my skills to keep pace with fast maoving world.  </p>
-</div>
-</div>
-</div>
-
-
-
+	</div>
+		<p>&copy;2020 KOUSTAV SARKAR </p>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="java3.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   
+    <script >
+    	 AOS.init();
+    </script>
 </body>
 </html>
