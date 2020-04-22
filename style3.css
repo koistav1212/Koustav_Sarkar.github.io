@@ -17,7 +17,7 @@ body{
 	width: 100%;
 	height: 100%;
      background-size: cover;
-	background: url("C:/Games/Web_video/portfolio/portfolio/images/sitebg.jpg") no-repeat center fixed;
+	background: url("sitebg.jpg") no-repeat center fixed;
 }
 a{
 	text-decoration: none;
@@ -475,7 +475,7 @@ input[type="submit"]:hover{
 {
 	body{
      background-size: cover;
-	background: url("C:/Games/Web_video/portfolio/portfolio/images/sitebg2.jpg") no-repeat center fixed;
+	background: url("sitebg2.jpg") no-repeat center fixed;
 }
 .landing-test h1{
 	font-size: 10rem;
