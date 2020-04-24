@@ -537,7 +537,7 @@ font-size: 8rem;
 		body{
      background-size: cover;
 
-	background: url("sitebg2.jpg") no-repeat center fixed;
+	background-image: url("sitebg2.jpg") no-repeat center fixed;
 }
 .menu-toggler{
 	top: 2rem;
