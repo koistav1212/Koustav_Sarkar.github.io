@@ -22,4 +22,6 @@ $(document).ready(function () {
 		easing:'ease',
 		duration:1800
 	});
+	
+	AOS.init({disable: 'mobile'});
 });
