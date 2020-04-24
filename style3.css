@@ -476,8 +476,7 @@ input[type="submit"]:hover{
 {
 		body{
      background-size: cover;
-
-	background:	url("sitebg2.jpg") no-repeat center fixed;
+background: url("sitebg2.jpg") no-repeat center fixed;
 }
 .landing-test h1{
 	font-size: 10rem;
@@ -618,8 +617,7 @@ font-size: 8rem;
  }
 	body{
      background-size: cover;
-
-	background:	url("sitebg.jpg") no-repeat center fixed;
+background: url("sitebg2.jpg") no-repeat center fixed;
 }
 	}
 /*End media queries*/
