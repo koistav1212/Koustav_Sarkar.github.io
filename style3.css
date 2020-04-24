@@ -473,9 +473,10 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media only screen and (max-width: 768px)
 {
-	body{
+		body{
      background-size: cover;
-	background: url("sitebg2.jpg") no-repeat center fixed;
+
+	background:	rgb(75,0,130) no-repeat center fixed;
 }
 .landing-test h1{
 	font-size: 10rem;
@@ -540,9 +541,10 @@ font-size: 8rem;
 .landing-text h1{
 	font-size: 6rem;
 }
-		body{
+	body{
      background-size: cover;
-	background: url("sitebg2.jpg") no-repeat center fixed;
+
+	background:	rgb(75,0,130) no-repeat center fixed;
 }
 .landing-text h6{
 	font-size: 1.2rem;}
@@ -608,9 +610,10 @@ font-size: 8rem;
  	border-radius: .8rem;
  	left: 40%;
  }
-		body{
+	body{
      background-size: cover;
-	background: url("sitebg2.jpg") no-repeat center fixed;
+
+	background:	rgb(75,0,130) no-repeat center fixed;
 }
 	}
 /*End media queries*/
