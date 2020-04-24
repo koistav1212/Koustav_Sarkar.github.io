@@ -540,6 +540,10 @@ font-size: 8rem;
 .landing-text h1{
 	font-size: 6rem;
 }
+		body{
+     background-size: cover;
+	background: url("sitebg2.jpg") no-repeat center fixed;
+}
 .landing-text h6{
 	font-size: 1.2rem;}
 	.nav-link{
@@ -604,5 +608,9 @@ font-size: 8rem;
  	border-radius: .8rem;
  	left: 40%;
  }
+		body{
+     background-size: cover;
+	background: url("sitebg2.jpg") no-repeat center fixed;
+}
 	}
 /*End media queries*/
