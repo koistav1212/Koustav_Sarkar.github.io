@@ -112,13 +112,10 @@ font-style: cursive;
   font-weight: 10;
   font-size: 15px;
 }
-br{
-  display: none;
-}
+
 #slider label p
   {
- font-size: 12px;
- font-weight: 10;
+display:none;
   }
 
 }
