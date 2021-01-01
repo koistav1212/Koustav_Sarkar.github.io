@@ -86,7 +86,7 @@ body {
 #slide5 { background: #FF5722 }
 @media screen and (max-width: 1000px){
 #slider label h3{
-  font-weight: 10;
+  font-weight: 15;
   font-size: 20px;
 }
 
@@ -97,17 +97,17 @@ body {
   }
 
 }
-@media screen and (max-width:700px){
+@media screen and (max-width: 500px){
 #slider label h3{
   font-weight: 10;
-  font-size: 13px;
+  font-size: 15px;
 }
 br{
   display: none;
 }
 #slider label p
   {
- font-size: 11px;
+ font-size: 12px;
  font-weight: 10;
   }
 
