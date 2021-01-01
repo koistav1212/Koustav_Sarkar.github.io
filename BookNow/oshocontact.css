@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Berkshire Swash');
+
+.contact{
+	background-color: #221e3f;
+}
+form{
+	width: 70%;
+	margin: 0 auto;
+}
+form label{
+	font-size: 1.5rem;
+}
+input,select,textarea{
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 5px;
+	border:none;
+	outline-color: #fd57bf;
+}
+input[type="submit"]{
+	width: initial;
+	background-color: #fd57bf;
+	color: #eee;
+	padding: 1rem 2rem;
+   border-radius: .8rem;
+   cursor: pointer;
+   transition: background-color 650ms;
+
+}
+input[type="submit"]:hover{
+	color: #221e3f;
+   background-color: #ffe838;
+}
+
+/*End contact*/
+
+/*Start footer*/
+.copyright{
+	width: 100%;
+	text-align: center;
+	background-color: #16162d;
+	padding: 2rem 0;
+	position: relative;
+}
+.up{
+	position: absolute;
+	width: 5rem;
+	height: 5rem;
+	background-color: #eee;
+	top:-2.5rem;
+	right: 5rem;
+	display: flex;
+	border-radius: 100%;
+	animation: pulse 2s infinite;
+	cursor: pointer;
+}
+.up i{
+	color: #16162d;
+	font-size: 2rem;
+	margin: auto;
+}
+.copyright p{
+	font-size: 1.4rem;
+}
+.container{
+ 	width: 90%;
+ 	max-width: 120rem;
+ 	height: 100%;
+ 	margin: 0 auto;
+ 	position: relative;
+ }
+ .section-heading{
+ 	text-align: center;
+ 	margin-bottom:  10rem;
+ }
+ .section-heading h1{
+ 	font-size: 3rem;
+ 	color: rgba(255,255,255,.3);
+ 	text-transform: uppercase;
+ 	font-weight: 300;
+ 	position: relative;
+ 	font-family: 'Sofia';
+ 	margin-bottom: 1rem;
+} 
+ .section-heading h6{
+ 	font-size: 1.6rem;
+ 	font-weight: 300;
+
+} 
+ .section-heading h1::before, .section-heading h1::after
+{
+content: '';
+position: absolute;
+bottom: -.5rem;
+left: 50%;
+transform: translateX((-40%));
+background-color: rgba(255,255,255,.75);
+}
+ .section-heading h1::before
+ {
+ 	width: 10rem;
+ 	height: 3px;
+ 	border-radius: .8rem;
+ 	left: 45%;
+ }
+  .section-heading h1::after
+  {
+  	width: 1.5rem;
+  	height: 1.5rem;
+  	border-radius: 100%;
+  	bottom: -1rem;
+
+  } .section-heading h6{
+  	font-size: 1.6rem;
+  	font-weight: 300;
+  }
+.has-margin-right{
+	margin-right: 5rem;
+}
