@@ -20,6 +20,7 @@ body {
   transform-style: preserve-3d;
 }
 
+
 #slider label {
   margin: auto;
   width: 60%;
@@ -34,6 +35,8 @@ body {
 }
 #slider label h3{
   text-shadow: 3px;
+font-size: 1.8rem;
+ font-weight: 300;	
   color: red;
 }
 #slider label p{
