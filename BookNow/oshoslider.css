@@ -84,3 +84,18 @@ body {
 #slide3 { background: #CDDC39 }
 #slide4 { background: #FFC107 }
 #slide5 { background: #FF5722 }
+@media screen and (max-width: 1000px){
+#slider label h3{
+  font-weight: 10;
+  font-size: 15px;
+}
+br{
+  display: none;
+}
+#slider label p
+  {
+ font-size: 12px;
+ font-weight: 10;
+  }
+
+}
