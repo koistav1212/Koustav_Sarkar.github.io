@@ -87,14 +87,27 @@ body {
 @media screen and (max-width: 1000px){
 #slider label h3{
   font-weight: 10;
-  font-size: 15px;
+  font-size: 20px;
+}
+
+#slider label p
+  {
+ font-size: 15px;
+ font-weight: 10;
+  }
+
+}
+@media screen and (max-width:700px){
+#slider label h3{
+  font-weight: 10;
+  font-size: 13px;
 }
 br{
   display: none;
 }
 #slider label p
   {
- font-size: 12px;
+ font-size: 11px;
  font-weight: 10;
   }
 
