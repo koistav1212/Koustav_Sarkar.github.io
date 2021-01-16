@@ -565,7 +565,7 @@ margin-bottom: 20px;
 
 .footer
 {
-	background: url(https://github.com/koistav1212/Koustav_Sarkar.github.io/blob/master/toplifeacademy/images/banner3.jpg) no-repeat center fixed;
+	background: url("https://github.com/koistav1212/Koustav_Sarkar.github.io/blob/master/toplifeacademy/images/banner3.jpg") no-repeat center fixed;
 }
 .footer h2
 {
