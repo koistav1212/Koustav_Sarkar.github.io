@@ -114,3 +114,24 @@ text-align: center;
 }
 
 }
+@media only screen and (max-width: 500px)
+{
+.working .container-inner img
+{
+	width: 100px;
+}
+.working .container-inner2 img
+{
+	width: 100px;
+}
+.benefits .container .container-inner img
+{
+	width: 100px;
+	border-radius: 10px;
+}
+.benefits .container .container-inner h2,h6
+{
+	padding-top: 20px;
+	font-size: 2rem;
+}
+}
