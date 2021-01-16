@@ -3,7 +3,7 @@
 	height: 168px;
 	position: relative;
 	margin-top: -110px;
-	background: transparent url("koistav1212/Koustav_Sarkar.github.io/blob/master/toplifeacademy/images/index-slider/shadow.png") no-repeat bottom center;
+	background: transparent url("images/index-slider/shadow.png") no-repeat bottom center;
 	background-size: 100% 100%; /* stretches it */
 	z-index: -1;
 	display: none;
