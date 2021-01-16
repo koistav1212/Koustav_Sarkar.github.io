@@ -3,7 +3,7 @@
 	height: 168px;
 	position: relative;
 	margin-top: -110px;
-	background: transparent url(http://127.0.0.1/wordpress/wp-content/uploads/2021/01/shadow.png) no-repeat bottom center;
+	background: transparent url("http://127.0.0.1/wordpress/wp-content/uploads/2021/01/shadow.png") no-repeat bottom center;
 	background-size: 100% 100%; /* stretches it */
 	z-index: -1;
 	display: none;
@@ -26,7 +26,7 @@
 .nav-arrows a {
 	width: 42px;
 	height: 42px;
-	background: #cbbfae url(https://github.com/koistav1212/Koustav_Sarkar.github.io/blob/master/toplifeacademy/images/index-slider/nav.png) no-repeat top left;
+	background: #cbbfae url(//github.com/koistav1212/Koustav_Sarkar.github.io/blob/master/toplifeacademy/images/index-slider/nav.png) no-repeat top left;
 	position: absolute;
 	top: 50%;
 	left: 2px;
