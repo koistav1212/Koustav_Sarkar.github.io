@@ -1,0 +1,116 @@
+body,html
+{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(180deg, #4658b0, white, #4658b0);
+}
+header
+{
+	height:0px;
+}
+ .container
+{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+ .container h2
+{
+	font-size: 4rem;
+
+}
+ .container h6
+{
+	font-size: 3rem;
+	font-style: italic;
+}
+.working .container .container-outer
+{      padding-top: 30px;
+	display: flex;
+	text-align: center;
+	flex-direction: row;
+}
+.working .container .container-inner
+{ 
+	display: flex;
+	padding: 20px;
+	text-align: center;
+	flex-direction: column;
+}
+.working .container .container-inner2
+{  margin-top: -30px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}.working .container .container-inner img
+{
+	width: 250px;
+}
+.working .container .container-inner2 img
+{
+	width: 250px;
+	align-self: center;
+
+}
+.benefits
+{
+	display: flex;
+	flex-direction: column;
+text-align: center;
+	align-self: center;
+}
+.benefits .container .container-inner
+{ 
+	display: flex;
+	width:80%;
+	align-self: center;
+	text-align: center;
+	text-align: center;
+	flex-direction: row;
+	margin:auto;
+
+}
+.benefits .container .container-inner img
+{
+	width: 250px;
+	border-radius: 10px;
+}
+.benefits .container .container-inner .benefits-exp
+{
+	align-self: center;
+	margin-left: auto;
+}
+.benefits .container .container-inner .benefits-exp h2
+{
+
+	margin-top: -20px;
+}
+@media only screen and (max-width: 800px)
+{
+.working .container .container-outer
+{      padding-top: 0px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+.working .container 
+{      margin-top:30px;
+	
+}
+.working .container-inner img
+{
+	width: 130px;
+}
+.working .container-inner2 img
+{
+	width: 130px;
+}
+.working .container .container-inner2
+{  margin-top: 0px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+
+}
