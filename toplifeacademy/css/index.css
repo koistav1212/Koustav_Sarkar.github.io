@@ -826,12 +826,14 @@ display: none;
 	width: 80px;
 } 
 }
+
 @media only screen and (max-width: 470px)
 {
 .choose .container-outer
 {
 	display: none;
 }
+
 .testimonials .container-inner img
 	{
  width: 100px;
@@ -848,7 +850,7 @@ display: none;
 
 	.team .slider {
 
-  width: 400px;
+  width: 340px;
 
 }
 .services 
@@ -863,12 +865,55 @@ font-size: 3rem;
 {
 	font-size: 1.5rem;
 }
+.landing-text h1,h6
+	{
+		font-size: 2rem;
+	}
 	.team .slides > div {
- width: 400px;
- height: 350px;
+ width: 340px;
+ height: 320px;
 	}
 	#banner2
 	{
 		display: none;
 	}
+}
+@media only screen and (max-width: 400px)
+{
+	.banner
+	{display: none;}
+	.circleimgs
+	{
+		display: block;
+		width: 200px;
+		position: absolute;
+		top: 60%;
+		left: 25%;}
+.branches table img
+{
+	width: 80px;
+}
+.branches table p,a
+{
+	font-size: 15px;
+}
+.top-right .social-media a,i
+{
+	font-size: 10px;
+}
+.top-right .social-media .fa
+{
+	font-size: 10px;
+}
+
+	.landing-text h1
+	{
+		font-size: 2rem;
+	}
+.sb-slider h3
+{
+	font-size: 1rem;
+padding: 2px;
+	}
+
 }
