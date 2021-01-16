@@ -198,4 +198,16 @@ font-family: Helvetica;
 {
 	margin-top: -120%;
 }
+.top-right .social-media a,i
+{
+	font-size: 10px;
+}
+.top-right .social-media .fa
+{
+	font-size: 10px;
+}
+	.services-exp p
+	{
+		font-size: 1rem;
+	}
 }
